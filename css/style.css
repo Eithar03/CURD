@@ -1,0 +1,15 @@
+.bg-linear {
+  background: linear-gradient(120deg, #000428 0%, #004e92 100%);
+  background-size: cover;
+  color: white;
+}
+
+h1{
+    color: white;
+    font-family: serif;
+}
+
+#addBtn{
+    background-color: black;
+    color: white;
+}

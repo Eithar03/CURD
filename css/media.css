@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+  body {
+    font-size: 12px;
+  }
+
+  table td,
+  table th {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  td .btn {
+    display: inline-block;
+    margin: 2px;
+  }
+}
+
+
+@media (max-width: 535px) {
+  .action-buttons {
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+    align-items: stretch;
+  }
+
+  .action-buttons button {
+    width: 100%;
+  }
+ 
+  table {
+    font-size: 50px;
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+
+}
