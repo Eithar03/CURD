@@ -212,6 +212,7 @@ function validateProductInputs(element) {
         element.classList.remove("is-invalid")
     }
     toggleAddBtn()
+    toggleUpdateBtn()
 }
 
 function toggleAddBtn() {
@@ -227,5 +228,17 @@ function toggleAddBtn() {
     }
 }
 
+function toggleUpdateBtn() {
+    if (regex.productName.isValid == true
+        && regex.productCategory.isValid == true
+        && regex.productPrice.isValid == true
+        && regex.productDescription.isValid == true
+
+    ) {
+        updateBtn.disabled = false
+    } else {
+        updateBtn.disabled = true
+    }
+}
 
 
